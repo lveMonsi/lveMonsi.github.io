@@ -30,11 +30,11 @@
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1678782602959">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1678782798646">
     
-    <link rel="stylesheet" href="/css/style.css?v=1678782602959">
+    <link rel="stylesheet" href="/css/style.css?v=1678782798646">
     
-        <link rel="stylesheet" href="/custom.css?v=1678782602959">
+        <link rel="stylesheet" href="/custom.css?v=1678782798647">
     
 <meta name="generator" content="Hexo 5.4.2"></head>
 
@@ -274,19 +274,19 @@
   
       <div class="nexmoe-post-footer">
           <section class="nexmoe-comment">
-    <div id="gitment"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-    owner: 'lveMonsi', // 你的 GitHub ID
-    repo: 'lveMonsi.github.io', // 存储评论的 repo
-    oauth: {
-        client_id: '8972373b53c0ead25ffe', // 你的 client ID
-        client_secret: '683a896806a11d2e69762c598e2187f20613d9d8' // 你的 client secret
-    },
-})
-gitment.render('gitment')
+    <link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css">
+<div id="gitalk"></div>
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+        clientID: '8972373b53c0ead25ffe',
+        clientSecret: '683a896806a11d2e69762c598e2187f20613d9d8',
+        id: window.location.pathname,
+        repo: 'lveMonsi.github.io',
+        owner: 'lveMonsi',
+        admin: 'lveMonsi'
+    })
+    gitalk.render('gitalk')
 </script>
 </section>
       </div>
@@ -331,7 +331,7 @@ gitment.render('gitment')
 
  
 
-<script async src="/js/app.js?v=1678782602960"></script>
+<script async src="/js/app.js?v=1678782798655"></script>
 
 
 
