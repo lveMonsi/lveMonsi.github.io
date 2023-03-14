@@ -40,11 +40,11 @@
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1678780698665">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1678781822416">
     
-    <link rel="stylesheet" href="/css/style.css?v=1678780698665">
+    <link rel="stylesheet" href="/css/style.css?v=1678781822416">
     
-        <link rel="stylesheet" href="/custom.css?v=1678780698665">
+        <link rel="stylesheet" href="/custom.css?v=1678781822416">
     
 <meta name="generator" content="Hexo 5.4.2"></head>
 
@@ -346,24 +346,20 @@
   
       <div class="nexmoe-post-footer">
           <section class="nexmoe-comment">
-    <script id="dsq-count-scr" src="https://lveMonsi.disqus.com/count.js" async></script>
-<div id="disqus_thread"></div>
+    <div id="gitment"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
-    var disqus_config = function () {
-        this.page.url = 'http://lvemonsi.github.io/2022/11/25/%E4%BD%BF%E7%94%A8-OneDrive-%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/'; // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://lvemonsi.github.io/2022/11/25/%E4%BD%BF%E7%94%A8-OneDrive-%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
+var gitment = new Gitment({
+    owner: 'lveMonsi', // 你的 GitHub ID
+    repo: 'lveMonsi.github.io', // 存储评论的 repo
+    oauth: {
+        client_id: '8972373b53c0ead25ffe', // 你的 client ID
+        client_secret: '683a896806a11d2e69762c598e2187f20613d9d8' // 你的 client secret
+    },
+})
+gitment.render('gitment')
 </script>
-<script id="disqus-thread-script">
-    (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document;
-        var s = d.createElement('script');
-        s.src = '//lveMonsi.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', + new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-
 </section>
       </div>
   
@@ -414,7 +410,7 @@
 
  
 
-<script async src="/js/app.js?v=1678780698674"></script>
+<script async src="/js/app.js?v=1678781822441"></script>
 
 
 
