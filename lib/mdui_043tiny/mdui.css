@@ -379,7 +379,7 @@ body.mdui-locked {
   bottom: -5000px;
   left: -5000px;
   z-index: 2000;
-  visibility: visible;
+  visibility: hidden;
   background: rgba(0, 0, 0, .4);
   opacity: 0;
   -webkit-transition-duration: .3s;
